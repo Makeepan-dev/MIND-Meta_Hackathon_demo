@@ -1,0 +1,33 @@
+# ============================================================================
+# MIND — Mageepan's Intelligence Network Device
+# Meta Global AI Developer Hackathon Edition — Python Dependencies
+# ============================================================================
+
+# Core Desktop UI & Embedded Web Preview
+PyQt6>=6.6.0
+PyQt6-WebEngine>=6.6.0
+
+# AI Provider Clients, HTTP & Environment Configuration
+requests>=2.31.0
+python-dotenv>=1.0.0
+litellm>=1.40.0
+pydantic>=2.5.0
+
+# Terminal Formatting, System Telemetry & Local Media Rendering
+colorama>=0.4.6
+psutil>=5.9.0
+Pillow>=10.0.0
+numpy>=1.26.0
+
+# Document Inspection & Local Tools
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+
+# Optional Voice Input / Audio Processing
+sounddevice>=0.4.6
+soundfile>=0.12.1
+
+# Automated Verification & Test Suite
+pytest>=8.0.0
+fastapi>=0.110.0
+uvicorn>=0.27.0
